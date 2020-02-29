@@ -4,14 +4,57 @@
     padding: 0;
   }
 
-.header{
-    width: 100vw;
+.background--index{
+    background-color: lightgrey;
+}
+
+.background--about{
+    background-color: lightgrey;
+}
+
+.background--portfolio{
+    background-color: lightgrey;
+}
+
+.header--front{
+    color: darkgray;
+    width: 96vw;
     max-height: 29vh;
     font-size: 15vw;
-    color: blue;
+    padding: 0 2vw;
+}
+
+.header--main{
+    color: rgb(163, 193, 173);;
+    width: 96vw;
+    max-height: 29vh;
+    font-size: 15vw;
     padding: 0 2vw;
 }
 
 .header__link{
     text-decoration: none;
+    transition: 0.5s;
+}
+
+.header__link:visited{
+    color: darkgray;
+}
+
+.header__link:hover{
+    color : rgb(163, 193, 173);
+}
+
+.para--fullspan{
+    color: white;
+    font-family: Montserrat;
+    font-size: 2.5vw;
+    width: 96vw;
+    padding: 0 2vw;
+}
+
+.img--fullspan{
+    width: 96vw;
+    padding: 0 2vw;
+    margin: 3vh 0;
 }
