@@ -83,6 +83,13 @@
     padding: 1vw;
 }
 
+@media only screen and (max-width: 550px){
+    .img--halfspan{
+        width: 80vw;
+        padding: 1vw;
+    }
+}
+
 .container__text{
     width: 96 vw;
     padding: 5vw 2vw;
