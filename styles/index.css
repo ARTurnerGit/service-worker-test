@@ -102,3 +102,30 @@
     font-size: 2.5vw;
     list-style-type: none;
 }
+
+.list__link{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.list__link:visited{
+    color: white;
+}
+
+.list__link:hover{
+    color : rgb(163, 193, 173);
+}
+
+.input--textarea{
+    width: 81%;
+    height: 8vw;
+    font-size: 1vw;
+}
+
+.input--submit{
+    width: 82%;
+    height: 2vw;
+    font-size: 2vw;
+    color: black;
+}
