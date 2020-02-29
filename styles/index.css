@@ -16,6 +16,10 @@
     background-color: lightgrey;
 }
 
+.background--contact{
+    background-color: lightgrey;
+}
+
 .header--front{
     color: darkgray;
     width: 96vw;
@@ -25,11 +29,16 @@
 }
 
 .header--main{
-    color: rgb(163, 193, 173);;
+    color: rgb(163, 193, 173);
     width: 96vw;
     max-height: 29vh;
     font-size: 15vw;
     padding: 0 2vw;
+}
+
+.header--sub{
+    color: white;
+    font-size: 4vw;
 }
 
 .header__link{
@@ -51,10 +60,45 @@
     font-size: 2.5vw;
     width: 96vw;
     padding: 0 2vw;
+    margin: 1vw 0;
 }
 
 .img--fullspan{
     width: 96vw;
     padding: 0 2vw;
     margin: 3vh 0;
+}
+
+.container__img{
+    width: 96vw;
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img--halfspan{
+    width: 45vw;
+    padding: 1vw;
+}
+
+.container__text{
+    width: 96 vw;
+    padding: 5vw 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container__text--link{
+    width: 40vw;
+}
+
+.list--para{
+    color: white;
+    font-family: Montserrat;
+    font-size: 2.5vw;
+    list-style-type: none;
 }
