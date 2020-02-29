@@ -64,9 +64,19 @@
 }
 
 .img--fullspan{
+    position: relative;
     width: 96vw;
     padding: 0 2vw;
     margin: 3vh 0;
+    animation-name: image-entry;
+    animation-duration: 1.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+}
+
+@keyframes image-entry{
+    0% {top: 100vh; opacity: 0}
+    100% {top: 0; opacity: 1}
 }
 
 .container__img{
@@ -81,12 +91,19 @@
 .img--halfspan{
     width: 45vw;
     padding: 1vw;
+    transition: 0.1s;
+}
+
+.img--halfspan:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
 }
 
 @media only screen and (max-width: 550px){
     .img--halfspan{
         width: 80vw;
         padding: 1vw;
+        transition: 0.1s;
     }
 }
 
