@@ -1,4 +1,17 @@
-h1{
-    font-size: 72pt;
-    color: blue
+* {
+    font-family : Roboto Slab;
+    margin: 0;
+    padding: 0;
+  }
+
+.header{
+    width: 100vw;
+    max-height: 29vh;
+    font-size: 15vw;
+    color: blue;
+    padding: 0 2vw;
+}
+
+.header__link{
+    text-decoration: none;
 }
