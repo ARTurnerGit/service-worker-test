@@ -25,6 +25,7 @@
       }
 
       let deferredPrompt;
+      let btnAdd = document.createElement("BUTTON");
       window.addEventListener("beforeinstallprompt", (e) => {
         e.preventDefault();
         deferredPrompt = e;
