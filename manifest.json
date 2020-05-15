@@ -1,0 +1,16 @@
+{
+  "name": "Alun's portfolio",
+  "short_name": "ART",
+  "icons": [
+    {
+      "src": "/images/icon-600x312.png",
+      "sizes": "600x312",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FF0000"
+}
