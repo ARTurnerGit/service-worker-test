@@ -27,7 +27,7 @@ self.addEventListener("install", (e) => {
 self.addEventListener("fetch", (e) => {
   e.respondWith(
     caches.match(e.request).then((cachedResponse) => {
-      return cachedResponse || fetch(event.request);
+      return cachedResponse || fetch(e.request);
     })
   ).catch((err) => {
     console.log("there has been an error");
